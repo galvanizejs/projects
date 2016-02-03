@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+
+<title>jQuery Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link href="css/style.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="practice.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('img/hero.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>jQuery Practice</h1>
+          <hr class="small">
+          <span class="subheading">The Write Less, Do More, JavaScript Library.</span> </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <p>1. When 'Submit' is clicked, add the contents of the textbox below the button in a h3 element.</p>
+      <input type="text" class="textInput">
+      <button class="btn btn-info" id="submitBtn">Submit</button>
+      <hr>
+      <p>2. When the checkbox is clicked, reveal a hidden message...</p>
+      <div class="chex">
+        <input type="checkbox">
+      </div>
+      <h2 class="hidden">You are a jQuery God!</h2>
+      <hr>
+      <div class="row">
+        <div class="col-xs-6">
+          <p>3. Add a new cat to the table.</p>
+          <p>4. Make 'hangry' red and 'content' green.</p>
+          <p>5. When clicked, only display cats weighing 10+ lbs:<br>
+            <button class="btn btn-warning">Heavy Cats</button>
+          </p>
+          <p>6. When clicked, uppercase all cat names: <br>
+            <button class="btn btn-success">YELL NAMES</button>
+          </p>
+          <p>7. Show and hide the table with this button: <br>
+            <button class="btn btn-primary">Toggle Table</button>
+          </p>
+        </div>
+        <div class="col-xs-6">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Weight (lbs)</th>
+                <th>Hunger Level</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mittens</td>
+                <td>8</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Boots</td>
+                <td>9</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Fluffs</td>
+                <td>11</td>
+                <td>Hangry</td>
+              </tr>
+              <tr>
+                <td>Tiny</td>
+                <td>18</td>
+                <td>Hangry</td>
+              </tr>
+              <tr>
+                <td>Mr Whiskers</td>
+                <td>7</td>
+                <td>Content</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <p>8. Turn this array into a list arranged alphabetically and then append it to the page:</p>
+      <h4>["rope", "string", "cord", "twine"]</h4>
+      <hr>
+      <p>9. Disable the input field, the checkbox, and the link to Google:</p>
+      <div id="disableUs">
+        <input type="text" placeholder="You can't type here">
+        <br>
+        <br>
+        <label>
+          <input type="checkbox" value="">
+          You can't check this box</label>
+        <br>
+        <br>
+        <a href="https://google.com">No more Google</a> </div>
+      <hr>
+      <p>10. Select the third option from the dropdown, and append it to the page.</p>
+      <select class="dropdown">
+        <option value="Select an option below">Select an option below</option>
+        <option value="Wrong Choice">Wrong Choice</option>
+        <option value="Wrong Choice">Wrong Choice</option>
+        <option value="Wahoo!!!">Wahoo!!!</option>
+      </select>
+      <hr>
+      <p>11. Alert the user how many items are in the list</p>
+      <ul id="alertList">
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+      </ul>
+      <hr>
+      <p>12. Create buttons that add and remove list items.</p>
+      <hr>
+      <p>13. Create a counter that displays the length of the list.</p>
+      <hr>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer></footer>
+
+</body>
+</html>

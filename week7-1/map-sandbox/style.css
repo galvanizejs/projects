@@ -1,0 +1,29 @@
+#title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#map {
+  width: 500px;
+  height: 400px;
+  background-color: #CCC;
+  margin: auto;
+}
+
+.doge img {
+  width: 100%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#placeMarker {
+  float: right;
+  width: 70%;
+  margin: auto;
+}
+#placeMarker input {
+  display: block;
+  margin-bottom: 10px;
+  width: 50%;
+
+}

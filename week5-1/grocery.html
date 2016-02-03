@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<title>jQuery Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link href="css/style.css" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('img/hero.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Grocery.js</h1>
+          <hr class="small">
+          <span class="subheading">When coding turns to hunger. </span> </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+     
+     <div id="addNew">
+     
+        <input type="text" id="addItem" placeholder="Additional item">
+        <input type="number" id="addPrice" placeholder="Price">
+        <input type="number" id="addQuantity" placeholder="Quantity">
+        <br>
+        <div class="btn btn-success">Add Item</div>
+      </div>
+      <div class="numItems"><h4>Total Quantity: </h4></div>
+      <div class="totalCost"><h4>Total Cost: </h4></div>
+      <ul id="list">
+
+      </ul>
+      <div id="removeItem" class="btn btn-danger">Remove Item</div>
+     
+     
+    </div>
+  </div>
+</div>
+</main>
+
+<!-- Footer -->
+<footer></footer>
+</body>
+</html>

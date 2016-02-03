@@ -1,0 +1,16 @@
+#title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#maps {
+  text-align: center;
+}
+#map1, #map2 {
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  background-color: #CCC;
+  border: 3px solid black;
+  margin: auto;
+}
