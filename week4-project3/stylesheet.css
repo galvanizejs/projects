@@ -1,0 +1,125 @@
+body {
+    background: url("images/brickwall.png");
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: #0ea7b5;
+  text-shadow: black 2px 2px 0px;
+  font-size: 3em;
+  margin: 0 auto;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #0c457d;
+  text-shadow: black 1px 1px 0px;
+  font-size: 2em;
+  margin-bottom: -1%;
+  width: 25%;
+  border: 3px dotted #4f372d;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5em;
+}
+
+li {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
+}
+
+.content {
+  margin-left: 10%;
+}
+
+.changeTextColors h1 {
+  color: #306009;
+}
+
+.changeTextColors h4 {
+  border: 3px dotted #92CF17;
+  color: #92CF17;
+}
+
+.changeTextColors .revealPlaceHolder {
+  background-color: #6C6A70;
+}
+
+.changeTextColors .revealPlaceHolder:hover {
+  background-color: pink;
+  color: #306009;
+}
+
+.changeTextColors p {
+  color: white;
+}
+
+.changeTextColors li {
+  color: lightblue;
+}
+
+#low-vision {
+  float: right;
+  margin-right: 10%;
+}
+
+#social-links img {
+  background-color: none;
+}
+
+#email {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  padding-top: 20px;
+}
+
+#social-links {
+ margin-left: 41.5%;
+}
+
+#footer {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  margin: 8% 0 3% 0;
+}
+
+#flip {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  color: grey;
+  font-size: 1em;
+}
+
+#panel {
+  display: none;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: black;
+  font-size: 1em;
+}
+
+.clicked-image {
+  width: 300px;
+}
+
+.reference-contact.hidden {
+  visibility:hidden;
+}
+
+.revealPlaceHolder {
+  font-size: 0.85em;
+  background: #1982B7;
+  margin: 0.2em;
+  padding: 0.3em;
+  text-align: center;
+  color: white;
+}
+.revealPlaceHolder:hover {
+  background:#dbdbdb;
+  cursor:pointer;
+  color: #556270;
+}
