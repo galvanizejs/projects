@@ -4,13 +4,25 @@
 // =======================================================
 
 //1. Log your name to the console (as a string).
-
+console.log('Gordon Graham');
+document.write('Gordon Graham');
 //2. Declare a variable called name, log it to the console.
-
+var name='Gordon';
+console.log(name);
+document.write(name);
 //3. Declare two variables with number values. Add, subtract, multiply and divide them.
-
+var num1=3;
+var num2=-3;
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
 //4. Declare two variables with string values. Create a third variable that concatenates them.
-
+var str1 = "JavaScript is...";
+var str2 = "AWESOME";
+var str3 = str1 + str2;
+console.log(str3);
+document.write(str3);
 //5. Add, subract, multiply and divide the strings '5' and '3'. Observe and explain the results.
 
 //6. Create a prompt that asks a user to pick a number. Double the answer.
