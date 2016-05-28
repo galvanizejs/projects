@@ -58,7 +58,9 @@ var invitees = { adults: [{
 
 // 5. Access Pablo's table number.
 
-// 6. Access Lauren's seating specialConsideration.
+// 6. Access Lauren's seating specialConsiderations.
+
+    //added 's' after specialConsideration so it is the same as in the object above
 
 // 7. Access Billy's dessert choice (this will be the third item in his dinneChoice array)
 
